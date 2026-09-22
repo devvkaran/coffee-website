@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header / Navbar -->
     <header>
         <nav class="navbar section-content">
             <a href="#" class="nav-logo">
@@ -19,15 +20,15 @@
                     <a href="#" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
-                </li>
-                </li><li class="nav-item">
-                    <a href="#" class="nav-link">Menu</a>
+                    <a href="#about" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Gallery</a>
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
                 </li><li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </li>
             </ul>
             <button id="menu-open-button" class="fas fa-bars"></button>
@@ -35,6 +36,7 @@
     </header>
 
     <main>
+        <!-- Hero Section -->
         <section class="hero-section">
             <div class="section-content">
                 <div class="hero-details">
@@ -51,8 +53,149 @@
                 </div>
             </div>
         </section>
+
+        <!-- About Section -->
+         <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about-image.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">We believe great coffee is more than just a drink. It’s a moment to slow down, good conversations with friends, and a little comfort in the middle of a busy day. From carefully selected beans to every freshly brewed cup, we’re passionate about creating coffee that feels as good as it tastes. Whether you’re here for your morning boost or a relaxed afternoon, we’re here to make every cup worth remembering.</p>
+                    
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Menu Section -->
+          <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/hot-beverages.png" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">Hot Beverages</h3>
+                        <p class="text">Rich, freshly brewed coffee made to bring warmth, comfort, and good moments.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/cold-beverages.png" alt="Cold Beverages" class="menu-image">
+                        <h3 class="name">Cold Beverages</h3>
+                        <p class="text">Refreshing chilled drinks made to cool you down and keep every moment delightful.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/refreshment.png" alt="Refreshment" class="menu-image">
+                        <h3 class="name">Refreshment</h3>
+                        <p class="text">Light and refreshing favorites made to recharge your mood and brighten your day.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/special-combo.png" alt="Special Combos" class="menu-image">
+                        <h3 class="name">Special Combos</h3>
+                        <p class="text">Perfect pairings of delicious favorites, made to give you more in every bite.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/desserts.png" alt="Dessert" class="menu-image">
+                        <h3 class="name">Dessert</h3>
+                        <p class="text">Sweet and delightful treats crafted to add the perfect finish to your coffee experience.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/burger-frenchfries.png" alt="Burger & French Fries" class="menu-image">
+                        <h3 class="name">Burger & French Fries</h3>
+                        <p class="text">Juicy burgers and crispy fries made fresh for a satisfying and delicious bite.</p>
+                    </li>
+                </ul>
+            </div>
+          </section>
+
+          <!-- Gallery Section -->
+          <section class="gallery-section" id="gallery"> 
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="images/gallery-1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+          </section>
+          
+          <!-- Contact Section -->
+          <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>456 Pine Ridge Road, Timberline, CO 80435</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@coffeeWebsite.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>1234567892</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Monday - Saturday: 9:00 AM - 11:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Sunday: Closed</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your name" class="form-input" required>
+                    <input type="email" placeholder="Your email" class="form-input" required>
+                    <textarea placeholder="Your message" class="form-input" required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+          </section>
+
+          <!-- Footer section -->
+          <footer class="footer-section">       
+            <div class="section-content">
+                <p class="copyright-text">© 2026 Coffee Shop</p>
+
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="seperator">•</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+            </div>
+          </footer>
+          
     </main>
     <script src="script.js"></script>
 
 </body>
-</html>
+</html>     
